@@ -1,0 +1,13 @@
+.juice-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.juice-item {
+    background: #ff9900;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+}
