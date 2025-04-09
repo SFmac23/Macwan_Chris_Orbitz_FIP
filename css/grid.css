@@ -11,3 +11,8 @@
     color: white;
     border-radius: 5px;
 }
+/* Grid system base */
+.grid {
+    display: grid;
+    gap: 1rem;
+  }
