@@ -45,24 +45,26 @@ nav ul li a {
 .hero {
     background: #3c8a5a;
     padding: 2rem;
-    height: 600px;
+    height: 500px;
 }
 
 .hero-image {
-    height: 600px;
-    width: 1200px;               
+    height: 500px;
+    width: 1200px; 
+            
 }
 
 .heading {
     color: #5abe56;
-    font-size: 120px;
-    height: 100px;
+    font-size: 100px;
+    height: 60px;
    
 }
 
 .heading1 {
     color: #5abe56;
-    font-size: 90px;
+    font-size: 80px;
+    font-weight: bold;
 }
 
 .para {
@@ -201,25 +203,25 @@ footer {
 }
 
 /*for contact us page */
-.breadcrumb {
-   
-    background-color: #eee; 
-    font-size: 14px;
+/*.Page {
+     
+    background-color: #6dc64b;
+    font-size: 12px;
     display: inline;
     color: black;
    
-    }
+    } */
   
   .contact-header {
     background-color: #63ae49;
     text-align: center;
-    padding: 40px 20px;
+    padding: 10px 40px;
     color: white;
   }
   
   .contact-header h1 {
     font-size: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   
   .contact-header p {
@@ -229,15 +231,7 @@ footer {
     font-weight: bold;
   }
   
-  .contact-header button {
-    background-color: #6dc64b;
-    border: none;
-    padding: 10px 20px;
-    color: white;
-    font-weight: bold;
-    margin-top: 20px;
-    cursor: pointer;
-  }
+
   
   .form-section {
     padding: 40px 20px;
@@ -282,3 +276,39 @@ footer {
     cursor: pointer;
   }
 
+/* Curvy white background section */
+.curvy-section {
+    background-color: white;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    margin-top: -40px; /* overlap the green section */
+    padding: 60px 20px;
+    box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .curvy-section .content {
+    max-width: 888px;
+    margin: 0 auto;
+    color: #333;
+    text-align: center;
+  }
+  
+  .button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: #2a9134;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #1e6f26;
+  }
+
+  .Contact-page {
+    text-decoration: underline;
+  }
