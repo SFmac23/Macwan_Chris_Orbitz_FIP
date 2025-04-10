@@ -46,11 +46,15 @@ nav ul li a {
     background: #3c8a5a;
     padding: 2rem;
     height: 500px;
+    border-bottom-right-radius: 9px;
+    border-bottom-left-radius: 9px;
 }
 
 .hero-image {
     height: 500px;
     width: 1200px; 
+   border-bottom-right-radius: 11px;
+   border-bottom-left-radius: 11px;
             
 }
 
