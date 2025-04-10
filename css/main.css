@@ -316,3 +316,78 @@ footer {
   .Contact-page {
     text-decoration: underline;
   }
+
+  /* Our_story Page */
+
+  
+  /* Story Section */
+  .story-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 60px 10%;
+    flex-wrap: wrap;
+  }
+  
+  
+  .story-block.reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .story-block .text {
+    flex: 1;
+  }
+  
+  .story-block .text h2 {
+    color: #2a9134;
+    margin-bottom: 15px;
+    font-size: 2rem;
+  }
+  
+  .story-block .text p {
+    font-size: 1rem;
+  }
+  
+  .story-block .image {
+    flex: 1;
+  }
+  
+  .story-block img {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Call to Action Section */
+  .cta-section {
+    background-color: #2a9134;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+  }
+  
+  .cta-section h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .cta-section .btn {
+    display: inline-block;
+    padding: 14px 30px;
+    background: white;
+    color: #2a9134;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .cta-section .btn:hover {
+    background-color: #2a9134;
+    color: white;
+    text-decoration: underline;
+   
+  }
