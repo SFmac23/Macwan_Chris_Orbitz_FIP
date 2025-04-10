@@ -156,7 +156,7 @@ footer {
 }
 
 .hero-image {
-    height: 160px;
+    height: 180px;
     width: 100%;  
 }
 
@@ -191,30 +191,19 @@ footer {
 
 }
 
-@media (max-width: 768px) {
+ @media (max-width: 768px) {
 .juice-item {
-    height: 200px;
+    height: 250px;
     padding-left: 30px;
-     
-
+    margin-top: 20px;
 }
 
-.juice-item:nth-child(2) {
-    position: relative;
-    top: 135px;
-}
-
-}
-
-/*for contact us page */
-/*.Page {
-     
-    background-color: #6dc64b;
-    font-size: 12px;
-    display: inline;
-    color: black;
    
-    } */
+     
+
+} 
+
+
   
   .contact-header {
     background-color: #63ae49;
