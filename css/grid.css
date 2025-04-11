@@ -22,6 +22,24 @@
 
 }
 
+@media (min-width: 500px) {
+    .hero-image {
+        height: 680px;
+        width: 100%; 
+       border-bottom-right-radius: 15px;
+       border-bottom-left-radius: 15px;
+                
+    }
+
+    .hero {
+        background: #3c8a5a;
+        padding: 2rem;
+        height: 680px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+}
+
 
 @media (max-width: 768px) {
 .logo {
@@ -67,9 +85,11 @@
   gap: 0px; /* Space between items */
 
 } 
+}
+
 
 
  
      
 
-} 
+ 
