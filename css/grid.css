@@ -1,5 +1,5 @@
 /* Responsive Styles */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .menu-toggle {
         display: block;  /* Show hamburger icon */
     }
@@ -8,10 +8,23 @@
         display: none;  /* Hide menu links on small screens */
     }
 }
+@media (max-width: 500px) {
+.hero {
+    background: #3c8a5a;
+    padding: 2rem;
+    height: 160px;
+}
+
+.hero-image {
+    height: 180px;
+    width: 100%;  
+}
+
+}
 
 @media (min-width: 500px) {
     .hero-image {
-        height: 180px;
+        height: 250px;
         width: 100%; 
        border-bottom-right-radius: 15px;
        border-bottom-left-radius: 15px;
@@ -21,14 +34,14 @@
     .hero {
         background: #3c8a5a;
         padding: 2rem;
-        height: 180px;
+        height: 250px;
         border-bottom-right-radius: 15px;
         border-bottom-left-radius: 15px;
     }
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 .logo {
     position: absolute;
     top: 0;   /* Adjust as needed */
@@ -39,7 +52,7 @@
 }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 .heading {
     color: #5abe56;
     font-size: 50px;
@@ -48,7 +61,7 @@
 }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 768px) {
 .heading1 {
     color: #5abe56;
     font-size: 40px;
@@ -56,15 +69,14 @@
 
 }
 
- @media (max-width: 500px) {
+ @media (max-width: 768px) {
 .juice-item {
-    height: 350px;
+    height: 200px;
     padding-left: 0px;
     margin-top: 70px;
     display: flex;
     position: relative;
-    width: 100%;
-    
+    width: 250px;
 }
 .juices {
   display: flex;
