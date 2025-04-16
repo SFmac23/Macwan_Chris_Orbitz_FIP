@@ -8,7 +8,7 @@ const promoDetails = [
   {
     title: "Use code ORBITZISBEST",
     description: "Buy one Orbitz juice and get one free! Offer valid until september 30, 2025.",
-    
+    description: "Use code ORBITZISBEST.",
   }
 ];
 
