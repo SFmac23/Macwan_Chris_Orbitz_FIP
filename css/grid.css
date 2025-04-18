@@ -7,6 +7,10 @@
     nav ul {
         display: none;  /* Hide menu links on small screens */
     }
+
+    .menu-items.show {
+        display: flex;
+      }
 }
 @media (max-width: 500px) {
 .hero {
@@ -21,6 +25,8 @@
 }
 
 }
+
+
 
 @media (min-width: 500px) {
     .hero-image {
@@ -51,6 +57,7 @@
     
 }
 }
+
 
 @media (max-width: 768px) {
 .heading {
