@@ -1,15 +1,31 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
     .menu-toggle {
-        display: block;  /* Show hamburger icon */
+        display: flex;  /* Show hamburger icon */
     }
 
     nav ul {
         display: none;  /* Hide menu links on small screens */
+        background: white;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-size: 17px;
+        height: auto;
+        width: 200px;
+        margin-left: auto;
+        margin-right: 0;
+        margin-top: 50px;
     }
 
-    .menu-items.show {
-        display: flex;
+    nav ul li {
+        content:white;
+        display: block;  /* Stack menu items vertically */
+        background: #3c8a5a;
+        height: 50px;
+    }
+
+    #menuitems.show {
+        display: none;
       }
 }
 @media (max-width: 500px) {

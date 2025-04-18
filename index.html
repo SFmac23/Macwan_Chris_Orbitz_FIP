@@ -8,20 +8,16 @@
     <link rel="stylesheet" href="css/grid.css">
 </head>
 <body>
-
     <header>
-        
         <nav>
             <img src="images/orbitz_logo_F.svg" alt="Orbitz Logo" class="logo">
-            <div class="menu-toggle">&#9776;</div> <!-- Hamburger Icon -->
-            
-            <ul class="menu-items">
+            <div class="menu-toggle" onclick="toggleMenu()">&#9776;</div> <!-- Hamburger Icon -->
+            <ul id="menuitems">
                 <li><a href="index.html">Home page</a></li>
                 <li><a href="#">Recipes</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="our_story.html">Our Story</a></li>
                 <li><a href="Contact.html">Contact us</a></li>
-
             </ul>
         </nav>
         <div class="search-box">
@@ -42,7 +38,7 @@
 
        <!-- Promo Section -->
 <section class="promo-section">
-    <button id="promoBtn">PROMO Code</button>
+    <button id="promoBtn" onclick="showPromoDetails()">PROMO Code</button>
   </section>
   
   <!-- Promo Modal -->
